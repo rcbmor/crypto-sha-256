@@ -1,0 +1,8 @@
+Cryptography exercise using SHA-256
+
+The hex encoded h0 for the video file at http://www.pucrs.br/aeromovel/videos/video05.mp4 is:
+8e423302209494d266a7ab7e1a58ca8502c9bfdaa31dfba70aa8805d20c087bd
+
+To test:
+$ python sha256.py -sha256 8e423302209494d266a7ab7e1a58ca8502c9bfdaa31dfba70aa8805d20c087bd video05.mp4
+
